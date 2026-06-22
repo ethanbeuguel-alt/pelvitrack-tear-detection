@@ -1,26 +1,26 @@
-# 🔍 Perineal Tear Detection (PELVITRACK)
+#  Perineal Tear Detection (PELVITRACK)
 
-## 📌 Overview
+##  Overview
 This project aims to detect perineal tissue rupture from video sequences using computer vision and machine learning.
 
 Developed within the European research project **PELVITRACK**.
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 - Detect rupture as early as possible in video sequences
 - Extract meaningful features from images
 - Build a robust predictive pipeline
 
 ---
 
-## 🧠 Methods
+##  Methods
 
-### 📊 Data
+###  Data
 - 13 experimental videos of perineal tissue (pig model)
 - Cyclic stretching until rupture
 
-### ⚙️ Pipeline
+###  Pipeline
 1. Frame extraction (temporal sampling)
 2. Feature extraction:
    - Intensity (mean, std)
@@ -34,20 +34,20 @@ Developed within the European research project **PELVITRACK**.
 
 ---
 
-## 📈 Results
+##  Results
 - **Accuracy:** 91.3%
 - **F1-score:** 91.5%
 - Detection delay: ~1.5s
 
 ---
 
-## 🧪 Features
+##  Features
 Main important feature:
 - `img1_rise`: increase of brightness from local minimum
 
 ---
 
-## 🚀 Usage
+##  Usage
 
 ```bash
 pip install -r requirements.txt
