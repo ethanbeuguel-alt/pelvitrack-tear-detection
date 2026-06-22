@@ -6,7 +6,7 @@ from scipy.signal import find_peaks
 from sklearn.ensemble import GradientBoostingClassifier
 from sklearn.metrics import accuracy_score, f1_score, classification_report, confusion_matrix
 
-BASE = r"C:\Users\ethan\OneDrive\Documents\ecoles\2IA\mission r et d"
+BASE = "data/raw"
 
 VIDEOS = [
     {"path": rf"{BASE}\C1MA.avi", "tear_start": 1340},
